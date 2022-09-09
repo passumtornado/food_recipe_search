@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Meal Recipe App</title>
+</head>
+<body>
+ <div class="container d-flex flex-column justify-content-center align-items-center">
+    <div class="meal-header d-flex flex-column gap-4">
+        <div class="meal-text d-flex flex-column justify-content-center align-items-center">
+            <h1 class="mt-5">Find Meals for your Ingredients</h1>
+            <p class="text-center">Real food doesn't have ingredient,real food is Ingredients</p>
+            <span class="text-center">-John Doe</span>
+        </div>
+        <div class="meal-search">
+            <div class="form-group d-flex">
+                <input type="text" class="form-control p-2 shadow-sm" placeholder="Enter on ingredient">
+                <button id="search"class="btn btn-primary d-flex align-items-center justify-content-center shadow-sm"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+     <div class="meal-section d-flex flex-column gap-5">
+        <h1 class="text-center mt-5">Meal Items</h1>
+        <div class="meal-content">
+
+        </div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+ </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+ integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="main.js"></script>
+</body>
+</html>
